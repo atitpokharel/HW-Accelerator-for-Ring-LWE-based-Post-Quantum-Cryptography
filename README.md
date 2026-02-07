@@ -8,16 +8,6 @@ Parameters used in the prototype:
 - Polynomial degree: N = 16
 - Modulus: q = 257 (see sw/with_decryp.c)
 
-## Repository layout
-
-.
-├─ docs/
-│  └─ Project_report.pdf
-├─ rtl/
-│  ├─ ring_lwe_16_sequential.sv   # single multiplier (N^2 cycles)
-│  └─ ring_lwe_16_parallel.sv     # 16 multipliers (about N cycles)
-└─ sw/
-   └─ with_decryp.c               # bare-metal driver plus toy keygen/encrypt/decrypt plus timing
 
 ## What the hardware does
 
